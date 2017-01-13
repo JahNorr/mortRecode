@@ -1,0 +1,14 @@
+,title,name,regexp,recode_id
+1,Cancer,cancer,eoplasm|lymphoma|Leuk,4
+2,Human immunodeficiency virus (HIV) disease,hiv,HIV,3
+3,Diabetes,diabetes,Diabetes,16
+4,Alzheimer's Disease,alzheimers,Alzheim,17
+5,Diseases of heart,heart_disease,[Hh]eart,19
+6,Essential (primary) hypertension and hypertensive renal disease,hypertension,Essent.*[Hh]ypertens,23
+7,Cerebrovascular diseases,cerebrovascular,Cerebrovasc,24
+8,Influenza and pneumonia,influenza,Influenz,27
+9,Chronic lower respiratory diseases,respiratory,respiratory,28
+10,Chronic liver disease and cirrhosis,liver,liver.*cirrho,30
+11,"Nephritis, nephrotic syndrome, and nephrosis",nephritis,[Nn]ephrit,31
+12,Intentional self-harm (suicide),suicide,[Ss]uicide,40
+13,Assault (homicide),assault,[Aa]ssault,41
