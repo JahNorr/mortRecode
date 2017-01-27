@@ -31,6 +31,8 @@ build_recode_113<-function() {
   recode113<-recode113_codes[,c("recode","t","parent","sex","age","cause")]
 
   recode113<-unique(recode113)
+  recode113[recode113$recode==recode113$parent,"parent"]<-NA
+
   recode113_codes<-recode113_codes[,c("recode","start","end")]
 
   save(recode113,file="./data/recode113.RData")
